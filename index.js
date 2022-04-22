@@ -50,6 +50,6 @@ server.get("/is-today-holiday", (req,res) => {
 })
 
 server.listen(5000, () => {
-  console.log(chalk.bold.green(`Aplicação está funcionando!`))
+  console.log(chalk.bold.green("The server is running on port 5000"))
 })
 
